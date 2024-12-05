@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Super Professional Compound Interest Calculator!</title>
+    <link rel="stylesheet" href="interest.css" />
+  </head>
+  <body>
+    <article>
+      <header>
+        <h1>
+          Super Professional Compound Interest Calculator!
+          <img
+            src="calc.png"
+            alt="Golden Calcultaor"
+            width="75"
+            height="75"
+            id="golden-calculator"
+          />
+        </h1>
+      </header>
+      <main>
+        <span>Principal ($)</span>
+        <input id="principal" />
+        <span>Interest Rate (%)</span>
+        <div>
+          <input
+            type="range"
+            id="apr"
+            min="0.25"
+            max="20"
+            value="2.5"
+            step="0.25"
+          />
+          <output id="aprText">2.5</output>
+        </div>
+        <span>Times compounded per year (num)</span>
+        <input id="times" />
+        <span>Total number of years (years)</span>
+        <input id="perYear" />
+        <div id="accumulated-interest" class="answer-box">
+          Interest accumulated: <output id="accumulated"></output>
+        </div>
+        <div id="accrued-amount-box" class="answer-box">
+          Accrued amount: <output id="answer"></output>
+        </div>
+      </main>
+      <img
+        src="Toothless-dancing-toothless.gif"
+        alt="Toothless Dancing"
+        class="dancing-toothless"
+      />
+      <footer>
+        <div>©2024</div>
+        <a
+          href="https://codesandbox.io/p/sandbox/xwmlp2?file=%2Findex.html%3A26%2C21-26%2C30"
+          >Code Sandbox Code
+        </a>
+      </footer>
+    </article>
+    <script src="interest.js"></script>
+  </body>
+</html>

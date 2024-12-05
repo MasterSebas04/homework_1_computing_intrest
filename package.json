@@ -1,0 +1,15 @@
+{
+  "name": "Super Professional Compound Interest Calculator!",
+  "version": "1.0.0",
+  "description": "Compound Intrest Calculator that returns intrest accumulated and accured amount",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "keywords": ["html", "css"],
+  "author": "Sebastian Lange",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "11.2.0"
+  }
+}
